@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+<link rel="stylesheet" type="text/css" href="exercice_formulaire_1.css" />
+<form action="recup.php" method="post" >
+</head>
+<body style="background-color:#ccc">
+<center>
+
+<h1>Fiche d'intervention</h1>
+
+<fieldset >
+<legend>Formulaire de verification de l'identité :</legend>
+
+Nom : <input type="text" name="nom" placeholder="entrez votre nom" /></br></br>
+id : <input type="text" name="idamin" placeholder="entrez votre Id" /></br></br>
+Password : <input type="password" name="mdp" /></br></br>
+ </div>
+</fieldset>
+
+<fieldset>
+<legend>Client :</legend>
+Nom : <input type="text" name="nomclient" placeholder="entrez le nom du client" /></br></br>
+Prenom : <input type="text" name="prenomclient" placeholder="entrez le prenom du client" /></br></br>
+</fieldset>
+<fieldset>
+<legend>Intervention</legend>
+IdIntervention : <input type="text" name="idIntervention" placeholder="entrez l'id de problem" /></br></br>
+DateIntervention : <input type="text" name="dateintervention" placeholder="entrez le date d'intervention" /></br></br>
+MotifIntervention : <input type="text" name="motifintervention" placeholder="entrez le motif d'intervention" /></br></br>
+SolutionIntervention : <input type="text" name="solutionintervention" placeholder="entrez la solution apporté" /></br></br>
+DateIntervention : <input type="text" name="dateresolution" placeholder="entrez le date de résolution " /></br></br>
+TempsPasse : <input type="text" name="durée" placeholder="entrez le durée de l'intervention" /></br></br>
+</fieldset>
+<fieldset>
+<legend>Intervention</legend>
+IdTypeIntervention : <input type="text" name="durée" placeholder="entrez l'id du type intervention faite " /></br></br>
+NomTypeIntervention : <select name="value" config  >
+<option value="remise_a_zero">Remise à zéro de l’ordinateur. </option>
+<option value="mise_a_jour">Mettre à jour les ordinateurs et les logicielles correspondant.</option>
+<option value="depannage"> Dépannage et éventuel remplacement du pc.</option>
+<option value="retour forunisseur">Service de retour au fournisseur (SAV).</option>
+<option value="wifi">Réglage du wifi et de sa connexionatariService de retour au fournisseur (SAV).</option>
+
+
+</select>
+</fieldset>
+
+</br>
+<input type="submit" value="Envoyer" />&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Annuler" />
+</br></br>
+</form>
+
+</body>
+</html>

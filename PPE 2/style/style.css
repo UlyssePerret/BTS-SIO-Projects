@@ -1,0 +1,84 @@
+body{
+
+font-family : Verdana,sans-serif;
+font-size: 12px;
+ text-align : center;
+ background :white;
+}
+
+.haut{background: #3366FF;
+border: 1px solid black;
+}
+a:link {text-decoration: none; color: yellow;}
+a:visited ,a:hover ,a:active {color: yellow; text-decoration: none;}
+ 
+		h1{
+			font-size : 20px; 
+			font-style: italic
+		  }
+	 
+	 hr{width:30%;
+	 color:aqua;
+	 size:3 }
+
+		 .formulaire{
+		 width : 50%;
+		 letter-spacing : 2px;
+		 background-color : #4682B4;
+		  border-width:1px; 
+	border-style:solid; 
+		border-color:black;
+		 }
+	
+table{
+ width:60%;
+
+ border-width:2px; 
+ border-style:solid; 
+ border-color:black;
+ background:#4682B4
+ }
+ 
+ td { 
+ width:50%;
+ border-width:2px;
+ border-style:solid; 
+ border-color:black;
+ 
+ }
+  tr { 
+ 
+ border-collapse : separate;
+ border-style:solid; 
+ border-color:black;
+ background:white
+ }
+ 
+ th { 
+ width:50%;
+ border-collapse : separate;
+ border-style:solid; 
+ border-color:black;
+ background:white
+ }
+ 
+ .bas{
+ background :#3366FF;
+    position: fixed;
+    right: 3px;
+	left: 3px;
+    bottom: 1px; 
+	border: 1px solid black;
+    display: block;
+
+ }
+ 
+ .mentionlegal p,   .faq p ,  .plandusite  p, li, ul {
+ text-align:left;
+background:white;
+ }
+ .plandusite   a:link   {text-decoration: none; color: blue;}
+ .faq  a:link {text-decoration: none; color: blue;}
+  .plandusite  a:visited ,a:hover ,a:active{color: red; text-decoration: none;}
+  .faq  a:visited ,a:hover ,a:active  {color: red; text-decoration: none;}
+

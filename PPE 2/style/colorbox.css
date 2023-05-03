@@ -1,0 +1,208 @@
+#colorbox, #modalBackgroundOverlay, #modalWrap{position:absolute; top:0; left:0; z-index:9999;}
+#modalBackgroundOverlay{position:fixed; width:100%; height:100%;}
+#colorbox{overflow:hidden; padding:1px; margin-top:-1px; margin-left:-1px;}/*padding fixes a ghosting issue in IE7, the negative margin compensates */
+	#modalWrap{width:9000px; height:9000px;}
+		#modalContent, #borderTopLeft, #borderTopCenter, #borderTopRight, #borderBottomLeft, #borderBottomCenter, #borderBottomRight, #borderMiddleLeft, #borderMiddleRight {float:left; height:0; width:0; overflow:hidden;}
+		#borderMiddleLeft, #borderBottomLeft{clear:left;}
+		#modalContent{position:relative; overflow:visible;}
+			#contentTitle{margin:0;}
+			#modalClose, #contentPrevious, #contentNext{outline:none; cursor:pointer; border:0; margin:0;width:26px; height:23px; background:url(../images/imagescolorbox/close.jpg) 0 0 no-repeat;}
+			#modalLoadedContent{overflow:auto; width:0; height:0;}
+			#modalLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+			#modalLoadedContent img#modalPhoto{display:block; border:0; margin:auto;}
+			#modalLoadedContent embed{display:block; border:0;}/* Display:block removes the line-height gap underneath images, iframes, and embedded content */
+			#modalLoadingOverlay{position:absolute; width:100%; height:100%; top:0; left:0;}
+
+.clear{clear:both;}
+.droite{float:right;}
+.gauche{float:left;}
+.milieu{text-align:center;}
+
+.img-droite{float:right;padding:0 0 3px 10px}
+.img-gauche{float:left;padding:0 10px 3px 0}
+
+.comment-grand{
+	position:relative;
+	width:40%;
+	float:left;
+	margin:5px 20px 5px 0;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment-grand p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1.3em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+
+.comment-grand p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment-grand a:first-letter {padding:5px 2px 10px 35px!important;}
+
+.comment-grand-right{
+	position:relative;
+	width:40%;
+	float:right;
+	margin:5px 0 5px 20px;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment-grand-right p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1.3em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+.comment-grand-right p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment-grand-right a:first-letter {padding:5px 2px 10px 35px!important;}
+
+.comment{
+	position:relative;
+	width:30%;
+	float:left;
+	margin:5px 20px 5px 0;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1.3em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+
+.comment p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment a:first-letter {padding:5px 2px 10px 35px!important;}
+
+
+.comment-right{
+	position:relative;
+	width:30%;
+	float:right;
+	margin:5px 0 5px 20px;
+    border:1px solid #E0DFE3;
+    padding:5px 0 0 10px;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment-right p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+
+.comment-right p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment-right a:first-letter {padding:5px 2px 10px 35px!important;}
+
+.comment-mini{
+	position:relative;
+	width:20%;
+	float:left;
+	margin:5px 20px 5px 0;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment-mini p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+
+.comment-mini p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment-mini a:first-letter {padding:5px 2px 10px 35px!important;}
+
+.comment-mini-right{
+	position:relative;
+	width:20%;
+	float:right;
+	margin:5px 0 5px 20px;
+        border:1px solid #E0DFE3;
+    padding:5px 0 0 10px;
+	background:url(../images/article/guillemet-haut.jpg) no-repeat left top!important;
+}
+
+.comment-mini-right p{
+	background:url(../images/article/guillemet-bas.jpg) no-repeat bottom right !important;
+	line-height:1.2em;
+	text-align:left;
+	font-size:1em;
+	font-style:italic;
+	color:#535353;
+	padding:10px 0 10px 0;
+	font-family:georgia,verdana;	
+}
+
+.comment-mini-right p:first-letter {padding:5px 2px 10px 35px!important;}
+.comment-mini-right a:first-letter {padding:5px 2px 10px 35px!important;}
+
+.comment, .comment-right, .comment-mini, .comment-mini-right, .comment-grand, .comment-grand-right img{text-align:center;}
+.comment, .comment-right, .comment-mini, .comment-mini-right, .comment-grand, .comment-grand-right span {text-align:right;color:#7E7E7E;}
+
+
+.alert {
+	background: #fff6bf url(../images/article/exclamation.png) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #ffd324;
+	border-bottom: 2px solid #ffd324;
+	padding-right:20px;
+}
+
+.note {
+	background: #F8FAFC url(../images/article/information.png) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	margin:10px 0;
+	border-top: 2px solid #B5D4FE;
+	border-bottom: 2px solid #B5D4FE;
+	padding-right:20px;
+}
+
+.pdf {
+	background: #F6F6F6 url(../images/article/page_white_acrobat.png) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #3D95D2;
+	border-bottom: 2px solid #3D95D2;
+	padding-right:20px;
+}
+
+.telecharger-pdf {
+	background: transparent url(../images/article/pdf.jpg) no-repeat 5% 50%;
+	text-align: left;
+	padding: 10px 0px 10px 75px;
+	margin:10px 0px 0 20px;
+	border-top: 1px double #E0E0E0;
+	border-bottom: 1px double #E0E0E0;
+	width:135px;
+	-width:180px;
+	float:right;
+	color:#919191;display:block;
+}
+
+.telecharger-pdf:hover{color:#919191;display:block;background: #F8FAFC url(../images/article/pdf2.jpg) no-repeat 5% 50%;color:#618EBC}

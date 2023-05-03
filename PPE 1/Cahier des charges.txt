@@ -1,0 +1,63 @@
+Plan du PPE
+I) Contexte
+Le sujet
+
+II) Cahier des charges
+=> Mettre en avant "les attentes"
+=> annexe : MCD ("Présenter l'architecture nécessaire")
+=> Attention des erreurs à détecter.
+Si des erreurs 
+-> Expliquer les problèmes rencontrées (l'inexactitude par rapport aux règle de gestion)
+-> Modifier (justifier la modifie apportée)
+
+Le chef de projet vérifiera et validera l'implantation des différentes missions, parties dans le PPE.
+
+Attribution des missions.
+Chef de projet
+Le chef de projet verifiera et validera l'implantation des différentes missions, partie dans le PPE.
+Le chef de projet sera Ulysse Perret, il aidera éventuellement si souci (mais moins important)
+L'équipe sera composée de Maetis et De David. Etant donné que les missions sont simples,
+ Et que nous voyons au fur a mesure des connaissances, chacun tournera (un coup, un coup David)
+Ulysse aidera, complétera si nécessaire, pour que le travaille soit dans les rails.
+
+1) Exploitation de base données.
+
+- analyse et améliorer le modèle. (up-David) --> MCD
+- adapter et améliorer la base de données. (- aide up)
+- l'implémentation la base de données. (David- aide : up)
+- compléter la base de données. (-up)
+
+- Ecrire des requêtes SQL. (1 chacune)
+Définir des demandes /... requêtes.
+
+-Assurer la sécurité des données. (David)
+
+2) Conception de l'interface graphique
+-Justification du choix (David-aide up) -> argumenté
+-Prototypage (Maetis- aide up) --> utiliser work bench
+-conception de cette interface graphique (Ulysse) --> formulaire html, récup donnée, menu déroulement.
+
+
+3) hébergement de l'application 
+-Etude des ressources nécessaire (Ulysse, vérifié ensemble) + 1ER cours STA (fait)
+-Proposer une solution chiffré (Maetis- aide up) + Labo cours STA.
+-Installation du système / application (ensemble Cf. : Labo) 
+
+
+III) Prévision du déroulement dans le tps
+-Gantt (quais sont les temps nécessaire)
+ Hébergement de l'application :
+Lecture et travaille de problème sur le sujet: 15/10/2014 -3/11/2014
+Justification du choix : 3/11/2014-14/11/2014
+ Installation du système / application : 14/11/2014 - 21/11/2014
+22/11/2014 - 5/12/2014 Travaille d’intégration, reposer le cahier des charge. Choix du contexte : hôpital
+5/12/2014-12/12/2014 : Travaille sur le SQL, redéfinition du PPE
+Remarque du travaille de reprise a été fait modification possible dans la forme du PPE, car c'était le premier.
+.
+-Partager l'agenda GOOGLE
+
+WORK BENCH
+WINDEV express
+
+
+Très Synthétique, très précise.
